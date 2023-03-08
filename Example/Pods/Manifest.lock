@@ -1,0 +1,16 @@
+PODS:
+  - TickerCreator (0.1.0)
+
+DEPENDENCIES:
+  - TickerCreator (from `../`)
+
+EXTERNAL SOURCES:
+  TickerCreator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TickerCreator: fd86e022504378b2b8b6d3ded3009d633d15cd8b
+
+PODFILE CHECKSUM: be0a4f5d274ce3a6bb7477779ef6d5978b7bf962
+
+COCOAPODS: 1.12.0

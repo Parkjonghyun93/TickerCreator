@@ -1,0 +1,6 @@
+framework module TickerCreator {
+  umbrella header "TickerCreator-umbrella.h"
+
+  export *
+  module * { export * }
+}

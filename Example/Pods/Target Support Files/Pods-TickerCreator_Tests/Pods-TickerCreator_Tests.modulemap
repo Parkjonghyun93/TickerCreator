@@ -1,0 +1,6 @@
+framework module Pods_TickerCreator_Tests {
+  umbrella header "Pods-TickerCreator_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

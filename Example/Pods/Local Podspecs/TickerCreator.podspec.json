@@ -1,0 +1,22 @@
+{
+  "name": "TickerCreator",
+  "version": "0.1.0",
+  "summary": "A short description of TickerCreator.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kltb930906@gmail.com/TickerCreator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kltb930906@gmail.com": "kltb930906@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/kltb930906@gmail.com/TickerCreator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TickerCreator/Classes/**/*"
+}

@@ -1,42 +1,19 @@
-#
-# Be sure to run `pod lib lint TickerCreator.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
+Pod::Spec.new do |spec|
 
-Pod::Spec.new do |s|
-  s.name             = 'TickerCreator'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of TickerCreator.'
+  spec.name         = "TickerCreator"
+  spec.version      = "0.0.1"
+  spec.summary      = "A nice ticker creator"
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  spec.description  = <<-DESC
+A nice ticker creator. Cheers
+                   DESC
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  spec.homepage     = "https://github.com/Parkjonghyun93"
 
-  s.homepage         = 'https://github.com/kltb930906@gmail.com/TickerCreator'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'kltb930906@gmail.com' => 'kltb930906@gmail.com' }
-  s.source           = { :git => 'https://github.com/kltb930906@gmail.com/TickerCreator.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  spec.license      = { :type => "MIT", :file => "license" }
 
-  s.ios.deployment_target = '10.0'
-
-  s.source_files = 'TickerCreator/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'TickerCreator' => ['TickerCreator/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  spec.author             = { "parkjonghyun" => "kltb930906@gmail.com" }
+  spec.source       = { :http => 'https://clc-prod.s3.ap-northeast-2.amazonaws.com/etc/Ticker.zip' }
+  spec.ios.deployment_target = '13.0'
+  spec.ios.vendored_frameworks = 'Ticker.framework'
 end

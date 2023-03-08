@@ -1,0 +1,6 @@
+framework module Pods_TickerCreator_Example {
+  umbrella header "Pods-TickerCreator_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
